@@ -23,30 +23,44 @@
   
   [参考网页](http://www.cnblogs.com/maybe2030/p/5089753.html)
   
-#### 批量梯度下降法BGD
+##### 批量梯度下降法BGD
   
   ![image](./asset/1.png)
+  ![image](./asset/2.png)
+  ![image](./asset/3.png)
+  
+##### 随机梯度下降法SGD
   
-#### 随机梯度下降法SGD
-
-#### 小批量梯度下降法MBGD
-
+  ![image](./asset/4.png)
+  ![image](./asset/5.png)
+  
+##### 小批量梯度下降法MBGD
+  
+   ![image](./asset/6.png)
+   
 ### 反向传播算法
 
+  [参考网页](http://www.cnblogs.com/charlotte77/p/5629865.html)
+  ![image](./asset/7.png)
+  ![image](./asset/8.png)
   
+### CNN
+
+### 分布式特征表示
+  
+  论文中：下面是一个很好的示范例子，比如将本地文本的内容作为输入，训练多层神经网络来预测句子中下一个单词。
+  
+### RNN
+  
+  RNNs被发现可以很好的预测文本中下一个字符或者句子中下一个单词，并且可以应用于更加复杂的任务。
+  采用了特殊隐式单元的LSTM（long short-termmemory networks）被首先提出，其自然行为便是长期的保存输入。LSTM网络随后被证明比传统的RNNs更加有效，尤其当每一个时间步长内有若干层时，整个语音识别系统能够完全一致的将声学转录为字符序列。
+  
+### 总结：
+	无监督学习对于重新点燃深度学习的热潮起到了促进的作用，但是纯粹的有监督学习的成功盖过了无监督学习。在本篇综述中虽然这不是我们的重点，我们还是期望无监督学习在长期内越来越重要。无监督学习在人类和动物的学习中占据主导地位：我们通过观察能够发现世界的内在结构，而不是被告知每一个客观事物的名称。
+	在未来几年，自然语言理解将是深度学习做出巨大影响的另一个领域。我们预测那些利用了RNNs的系统将会更好地理解句子或者整个文档，当它们选择性地学习了某时刻部分加入的策略。
 
 
-具体秒速大山东干豆腐
-dfasd
-
-dfjaklasdgsdfga阿萨德工时费钢塑复合管算法
-
-
-
-You can use the [editor on GitHub](https://github.com/Raneee/Deep-Learning-Review/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+  
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -71,10 +85,3 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Raneee/Deep-Learning-Review/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
