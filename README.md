@@ -50,7 +50,9 @@
   CNN主要弄清楚下面几个概念：卷积  池化  ReLu Layer  全连接 
   
   两个重要的网站
+  
   [CNN笔记：通俗理解卷积神经网络](http://blog.csdn.net/v_JULY_v/article/details/51812459)
+  
   [卷积神经网络CNN究竟是怎样一步一步工作的？](http://www.jianshu.com/p/fe428f0b32c1)
   
 ### 分布式特征表示
