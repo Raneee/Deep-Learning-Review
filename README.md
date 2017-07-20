@@ -41,6 +41,7 @@
 ### 反向传播算法
 
   [参考网页](http://www.cnblogs.com/charlotte77/p/5629865.html)
+  
   ![image](./asset/7.png)
   ![image](./asset/8.png)
   
