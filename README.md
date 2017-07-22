@@ -96,6 +96,10 @@
   
   RNNs被发现可以很好的预测文本中下一个字符或者句子中下一个单词，并且可以应用于更加复杂的任务。
   采用了特殊隐式单元的LSTM（long short-termmemory networks）被首先提出，其自然行为便是长期的保存输入。LSTM网络随后被证明比传统的RNNs更加有效，尤其当每一个时间步长内有若干层时，整个语音识别系统能够完全一致的将声学转录为字符序列。
+  
+  [莫凡对于RNN讲解](https://morvanzhou.github.io/tutorials/machine-learning/ML-intro/2-3-RNN/)
+  
+  [LSTM](https://morvanzhou.github.io/tutorials/machine-learning/ML-intro/2-4-LSTM/)
   
 ### 总结：
 
